@@ -1,18 +1,33 @@
 
 /* Your CSS Code here. */
-
+body{
+	background-color: rgba(251, 15, 15, 0.815);;
+}
+div{
+	display: flex;
+	justify-content: center;
+     align-items: center;
+	height: auto;
+	
+}
 .moviePic{
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	height: 350px;
 	width: 600px;
 	opacity: 82%;
 }
 
 .movieDetail{
-	position:;
-	top:;
-	width:;
-	text-align:;
-	font-size:;
+	position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 60%;
+      text-align: center;
+      font-size: 18px;
+      color: black;
+	font-weight: 800;
+	font-size:20px;
 }
 
 
